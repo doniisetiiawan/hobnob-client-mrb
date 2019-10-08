@@ -19,6 +19,9 @@ module.exports = {
   plugins: ["react"],
   rules: {
     "react/prop-types": "off",
-    "jsx-a11y/label-has-associated-control": "off"
+    "jsx-a11y/label-has-associated-control": "off",
+    "react/destructuring-assignment": "off",
+    "no-console": "off",
+    "react/no-unescaped-entities": "off"
   }
 };
