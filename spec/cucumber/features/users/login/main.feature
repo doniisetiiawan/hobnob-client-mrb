@@ -11,7 +11,7 @@ Feature: Login User
     Tests that the 'Login' button is disabled when either input elements contain invalid values
 
     When user types in "<email>" in the "#email" element
-    And user types in "<parandom user is registessword>" in the "#password" element
+    And user types in "<password>" in the "#password" element
     Then the "#login-button" element should have a "disabled" attribute
 
   Examples:
